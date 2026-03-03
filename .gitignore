@@ -1,0 +1,13 @@
+# Ignore everything by default
+*
+
+# But keep gitignore itself
+!.gitignore
+
+# Allow src and everything inside it
+!src/
+!src/**
+
+# Optional: allow these common repo files if you want them tracked
+!README.md
+!LICENSE
